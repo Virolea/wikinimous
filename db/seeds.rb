@@ -9,6 +9,6 @@
 10.times do
   article = Article.new
   article.title = Faker::Book.title
-  article.content = Faker::Hipster.sentence
+  article.content = Faker::Hipster.paragraphs
   article.save
 end

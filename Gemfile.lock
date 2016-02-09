@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ace-rails-ap (4.0.1)
     actionmailer (4.2.5.1)
       actionpack (= 4.2.5.1)
       actionview (= 4.2.5.1)
@@ -150,6 +151,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ace-rails-ap
   better_errors
   binding_of_caller
   byebug
